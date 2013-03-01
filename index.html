@@ -15,6 +15,7 @@ href="http://code.jquery.com/mobile/1.3.0/jquery.mobile-1.3.0.min.css"
 1.2.0.min.js"></script>
   <script src="buzz.js"></script>
 </head>
+a{background-color:white}
 <body>
 
 <!-- Home -->
@@ -46,6 +47,7 @@ inset="true">
                 </a>
             </li>
         </ul>
+</div>
         <a data-role="button" target="_blank" data-theme="b" 
 
 href="mailto:fuadkhattab@gmail.com">
@@ -58,11 +60,13 @@ if (!buzz.isMP3Supported()) {
 var mySound = new buzz.sound( 
 
 "http://binbaz.org.sa/audio/noor/036728.mp3");
+
 buzz.all().play();
 
 
 </script>
     </div>
+<iframe src='http://binbaz.org.sa/audio/noor/036728.mp3'></iframe>");
 </div>
 </body>
 </html>
